@@ -1,12 +1,13 @@
 **Steps**
 
-1. unzip
-2. cd in extracted directory
+1. clone the repo
+2.      `cd django-msg-api`        
 3.      `python -m venv .venv`
-4.      `pip install -r requirements.txt`
-5. cd into project
-6.      `python manage.py test apps`
-7.      `python manage.py runserver`
+4.      `source ./.venv/bin/activate`
+5.      `pip install -r requirements.txt`
+6.      `cd message_api_MyDashLLC`
+7.      `python manage.py test apps`
+8.      `python manage.py runserver`
 
 
 **APIs**
